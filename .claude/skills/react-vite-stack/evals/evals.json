@@ -1,0 +1,23 @@
+{
+  "skill_name": "react-vite-stack",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to start a new frontend project called task-tracker. Can you scaffold it for me?",
+      "expected_output": "A fully scaffolded React app in a directory called task-tracker with: vite.config.ts configured with TanStack Router plugin, postcss.config.cjs, src/routes/__root.tsx with MantineProvider and dark mode toggle, src/routes/index.tsx with a TanStack Query example, src/routes/about.tsx, src/main.tsx with RouterProvider and QueryClientProvider, src/test/setup.ts, .prettierrc, .prettierignore, eslint.config.js updated with prettier, package.json with all required dependencies installed via pnpm.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Create a new React app for me. I'd like to call it my-portfolio.",
+      "expected_output": "A fully scaffolded React app in a directory called my-portfolio with the complete react-vite-stack setup: all config files, route files, correct app name displayed in the header, working dark mode toggle wired up, TanStack Query devtools present, and the dev server starts successfully.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Can you scaffold a new frontend app called recipe-finder? I want it ready to start building with.",
+      "expected_output": "A fully scaffolded React app in a directory called recipe-finder with the complete stack setup. The app name 'Recipe Finder' (or 'recipe-finder') appears in the header. All routes (/ and /about) are present. Dev server runs without errors.",
+      "files": []
+    }
+  ]
+}
